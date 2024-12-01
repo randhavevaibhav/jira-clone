@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
 
 export default function Home() {
  return (
   <div className="">
-    
-    <Button>Primary</Button>
+    <Input/>
+    <Button variant={"primary"} size={"lg"}>Primary</Button>
     <Button variant={"secondary"}>
       Secondary
     </Button>
@@ -19,6 +20,9 @@ export default function Home() {
     </Button>
     <Button variant={"outline"}>
       outline
+    </Button>
+    <Button variant={"teritary"}>
+    teritary
     </Button>
     
   </div>
